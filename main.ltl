@@ -1,0 +1,15 @@
+// ltl-aes-gcm/main.ltl
+//
+// AES-128/256 in GCM mode with constant-time GF(2^128).
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-aes-gcm v0.1.0")
+    io::println("AES-128/256 in GCM mode with constant-time GF(2^128).")
+    0
+}
